@@ -1,4 +1,4 @@
-public class MotorTechnic implements UpdateTyre{
+public abstract class MotorTechnic implements Service{
 
     private String modelName;
     private int wheelsCount;
@@ -16,8 +16,5 @@ public class MotorTechnic implements UpdateTyre{
         return wheelsCount;
     }
 
-    @Override
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
+
 }

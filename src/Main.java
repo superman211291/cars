@@ -16,9 +16,7 @@ public class Main {
         for (MotorTechnic motorTechnic : technic) {
             station.check(motorTechnic);
         }
-        System.out.println();
-        System.out.println("Перегруженный check()");
-        station.check(car,bicycle,truck);
+
 
     }
 }
